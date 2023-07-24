@@ -1,0 +1,14 @@
+vna.py
+*.so
+*.pyd
+*.dll
+.idea
+*~
+CMakeCache.txt
+Makefile
+CMakeFiles
+*.cmake
+cmake-build-debug
+cmake-build-release
+__pycache__
+*.pyc

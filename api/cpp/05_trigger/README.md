@@ -1,0 +1,1 @@
+Sets up a uniformly spaced frequency sweep and then waits for a rising edge external trigger event before running the sweep and printing the resulting measurements in re/im format. Prints a message to the screen when waiting for the trigger and when the trigger event occurs, and subsequently prints out the measurements as soon as they are available. 
