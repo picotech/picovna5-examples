@@ -56,8 +56,8 @@ SCPI allows the PicoVNA instrument to be controlled via the PicoVNA 5 software. 
 
 ### Examples
 
-1. Perform a simple frequency sweep using factory calibration and retrieve all sweep data | [Python](/scpi/python/01_simple_frequency_sweep) | [MATLAB](/scpi/matlab/01_simple_frequency_sweep) |
-2. Load user calibration, perform sweep and export all sweep data to a Touchstone file | [Python](/scpi/python/02_load_cal_and_export_touchstone) | [MATLAB](/scpi/matlab/02_load_cal_and_export_touchstone) |
+1. Perform a simple frequency sweep using factory calibration and retrieve all sweep data | [Python](/scpi/python/01_simple_frequency_sweep) | [MATLAB](/scpi/matlab/01_simple_frequency_sweep) | [LabVIEW](/scpi/LabVIEW/01_simple_frequency_sweep) |
+2. Load user calibration, perform sweep and export all sweep data to a Touchstone file | [Python](/scpi/python/02_load_cal_and_export_touchstone) | [MATLAB](/scpi/matlab/02_load_cal_and_export_touchstone)  | [LabVIEW](/scpi/LabVIEW/02_load_cal_and_export_touchstone) |
 
 
 ## Binary Data Broadcasts
