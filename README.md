@@ -20,7 +20,7 @@ To remote control the instrument via SCPI, the PicoVNA 5 software must be instal
 To use the API, installing the PicoVNA 5 software is optional. An SDK is available that allows the instrument to be programmatically controlled without the PicoVNA 5 software being installed.
 
 > [!IMPORTANT]  
-> [CLICK HERE](https://picotech.com/downloads/_lightbox/picovna-5.2.5-sdk) to download the SDK (language bindings, headers, libraries, driver-only installer, etc.).
+> [CLICK HERE](https://www.picotech.com/downloads/_lightbox/picovna-5.3.1-sdk) to download the SDK (language bindings, headers, libraries, driver-only installer, etc.).
 
 Further requirements specific to programming languages can be found within the programming guides for those languages.
 
@@ -63,3 +63,9 @@ SCPI allows the PicoVNA instrument to be controlled via the PicoVNA 5 software. 
 ## Binary Data Broadcasts
 
 Binary data broadcasts provide a simple way for other applications to extract data from the PicoVNA 5 software in real-time. No programming is required to conﬁgure these; data is broadcast using a binary protocol when a measurement is started via the PicoVNA 5 software. These are read-only, and they do not provide a programmatic way to conﬁgure measurements (which must be done either via the user interface of the PicoVNA 5 software or via SCPI). Refer to the PicoVNA 5 User Manual for details on how to retrieve data using the binary data broadcasts.
+
+
+Hello Ankit,
+
+Yes - the PICOSCOPE 2205A will be compatible with the current probe (TA138 Current Probe 4mm Banana Plug Clamp) using a banana-to-BNC converter port
+
