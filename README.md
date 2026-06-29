@@ -56,16 +56,11 @@ SCPI allows the PicoVNA instrument to be controlled via the PicoVNA 5 software. 
 
 ### Examples
 
-1. Perform a simple frequency sweep using factory calibration and retrieve all sweep data | [Python](/scpi/python/01_simple_frequency_sweep) | [MATLAB](/scpi/matlab/01_simple_frequency_sweep) | [LabVIEW](/scpi/LabVIEW/01_simple_frequency_sweep) |
-2. Load user calibration, perform sweep and export all sweep data to a Touchstone file | [Python](/scpi/python/02_load_cal_and_export_touchstone) | [MATLAB](/scpi/matlab/02_load_cal_and_export_touchstone)  | [LabVIEW](/scpi/LabVIEW/02_load_cal_and_export_touchstone) |
+1. Perform a simple frequency sweep using factory calibration and retrieve all sweep data | [Python](/scpi/python/01_simple_frequency_sweep) | [C#](/csharp/python/01_simple_frequency_sweep) | [MATLAB](/scpi/matlab/01_simple_frequency_sweep) | [LabVIEW](/scpi/LabVIEW/01_simple_frequency_sweep) |
+2. Load user calibration, perform sweep and export all sweep data to a Touchstone file | [Python](/scpi/python/02_load_cal_and_export_touchstone) | [C#](/csharp/python/02_load_cal_and_export_touchstone) | [MATLAB](/scpi/matlab/02_load_cal_and_export_touchstone)  | [LabVIEW](/scpi/LabVIEW/02_load_cal_and_export_touchstone) |
 
 
 ## Binary Data Broadcasts
 
 Binary data broadcasts provide a simple way for other applications to extract data from the PicoVNA 5 software in real-time. No programming is required to conﬁgure these; data is broadcast using a binary protocol when a measurement is started via the PicoVNA 5 software. These are read-only, and they do not provide a programmatic way to conﬁgure measurements (which must be done either via the user interface of the PicoVNA 5 software or via SCPI). Refer to the PicoVNA 5 User Manual for details on how to retrieve data using the binary data broadcasts.
-
-
-Hello Ankit,
-
-Yes - the PICOSCOPE 2205A will be compatible with the current probe (TA138 Current Probe 4mm Banana Plug Clamp) using a banana-to-BNC converter port
 
